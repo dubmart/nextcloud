@@ -1,3 +1,4 @@
+namespace: nextcloud
 affinity: {}
 cronjob:
   enabled: false
