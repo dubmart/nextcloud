@@ -100,7 +100,7 @@ nextcloud:
   extraSidecarContainers: []
   extraVolumeMounts: null
   extraVolumes: null
-  host: nextcloud-nextcloud.apps-crc.testing
+  host: nextcloud.apps-crc.testing
   mail:
     domain: domain.com
     enabled: false
