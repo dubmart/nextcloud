@@ -182,6 +182,8 @@ redis:
     existingSecret: ''
     existingSecretPasswordKey: ''
     password: changeme
+  replica:
+    replicaCount: 1
   enabled: true
 replicaCount: 2
 resources: {}
@@ -199,5 +201,4 @@ startupProbe:
   successThreshold: 1
   timeoutSeconds: 5
 tolerations: []
-replica:
-  replicaCount: 1
+
