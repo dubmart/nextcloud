@@ -199,4 +199,5 @@ startupProbe:
   successThreshold: 1
   timeoutSeconds: 5
 tolerations: []
-
+replica:
+  replicaCount: 1
