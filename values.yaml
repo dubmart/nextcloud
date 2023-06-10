@@ -149,6 +149,8 @@ phpClientHttpsFix:
 podAnnotations: {}
 postgresql:
   enabled: true
+  serviceAccount: 
+     name: nextcloud-serviceaccount
   global:
     postgresql:
       auth:
@@ -177,6 +179,9 @@ readinessProbe:
   successThreshold: 1
   timeoutSeconds: 5
 redis:
+  serviceAccount: 
+    create: false
+    name: nextcloud-serviceaccount
   auth:
     enabled: true
     existingSecret: ''
