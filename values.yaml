@@ -100,7 +100,7 @@ nextcloud:
   extraSidecarContainers: []
   extraVolumeMounts: null
   extraVolumes: null
-  host: nextcloud.apps.cluster-dvxdj-dvxdj.sandbox1489.opentlc.com #nextcloud.apps-crc.testing
+  host: nextcloud.apps.cluster-dvxdj.dvxdj.sandbox1489.opentlc.com #nextcloud.apps-crc.testing
   mail:
     domain: domain.com
     enabled: false
