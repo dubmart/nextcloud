@@ -1,7 +1,7 @@
-kind: Namespace
-apiVersion: v1
-metadata:
-  name: {{ .Values.namespace }}
-  labels:
-    kubernetes.io/metadata.name: {{ .Values.namespace }}
-spec: {}
+#kind: Namespace
+#apiVersion: v1
+#metadata:
+#  name: {{ .Values.namespace }}
+#  labels:
+#    kubernetes.io/metadata.name: {{ .Values.namespace }}
+#spec: {}
